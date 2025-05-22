@@ -4,5 +4,11 @@
     "URL": "https://itsplk.github.io/ps5_payloads/websrv_v0.23.1.elf",
     "description": "A simple web server for jailbroken PS5s that accepts connections on port 8080",
     "last_update": "2025-05-12"
+  },
+  {
+    "filename": "ftpsrv_v0.11.3.elf",
+    "URL": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.11.3.elf",
+    "description": "A simple FTP server for jailbroken PS5s that accepts connections on port 2121",
+    "last_update": "2025-03-15"
   }
 ]
