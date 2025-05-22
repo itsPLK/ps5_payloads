@@ -1,14 +1,8 @@
 [
   {
-    "filename": "payload1.bin",
-    "URL": "https://example.com/payload1.bin",
-    "description": "Description of payload 1",
-    "last_update": "2025-05-21"
-  },
-  {
-    "filename": "payload2.bin",
-    "URL": "https://example.com/payload2.bin",
-    "description": "Description of payload 2",
-    "last_update": "2025-05-22"
+    "filename": "websrv_v0.23.1.elf",
+    "URL": "https://itsplk.github.io/ps5_payloads/websrv_v0.23.1.elf",
+    "description": "A simple web server for jailbroken PS5s that accepts connections on port 8080",
+    "last_update": "2025-05-12"
   }
 ]
