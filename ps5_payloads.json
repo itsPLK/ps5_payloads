@@ -22,5 +22,11 @@
     "URL": "https://itsplk.github.io/ps5_payloads/kstuff_v1.5.elf",
     "description": "Dynamically patches the PS5 kernel to bypass security",
     "last_update": "2025-05-04"
+  },
+  {
+    "filename": "etaHEN_v2.1B.bin",
+    "URL": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.1B.bin",
+    "description": "AIO HEN payload",
+    "last_update": "2025-04-28"
   }
 ]
