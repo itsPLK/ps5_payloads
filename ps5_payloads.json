@@ -16,5 +16,11 @@
     "URL": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.5.3.elf",
     "description": "A simple socket server for jailbroken PS5s that redirects /dev/klog to sockets connected on port 3232",
     "last_update": "2025-03-15"
+  },
+  {
+    "filename": "kstuff_v1.5.elf",
+    "URL": "https://itsplk.github.io/ps5_payloads/kstuff_v1.5.elf",
+    "description": "Dynamically patches the PS5 kernel to bypass security",
+    "last_update": "2025-05-04"
   }
 ]
