@@ -1,32 +1,37 @@
 [
   {
     "filename": "websrv_v0.23.1.elf",
-    "URL": "https://itsplk.github.io/ps5_payloads/websrv_v0.23.1.elf",
-    "description": "A simple web server for jailbroken PS5s that accepts connections on port 8080",
+    "url": "https://itsplk.github.io/ps5_payloads/websrv_v0.23.1.elf",
+    "source": "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.23.1",
+    "description": "A simple web server that accepts connections on port 8080",
     "last_update": "2025-05-12"
   },
   {
-    "filename": "ftpsrv_v0.11.3.elf",
-    "URL": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.11.3.elf",
-    "description": "A simple FTP server for jailbroken PS5s that accepts connections on port 2121",
-    "last_update": "2025-03-15"
-  },
-  {
-    "filename": "klogsrv_v0.5.3.elf",
-    "URL": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.5.3.elf",
-    "description": "A simple socket server for jailbroken PS5s that redirects /dev/klog to sockets connected on port 3232",
-    "last_update": "2025-03-15"
-  },
-  {
     "filename": "kstuff_v1.5.elf",
-    "URL": "https://itsplk.github.io/ps5_payloads/kstuff_v1.5.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.5.elf",
+    "source": "https://github.com/EchoStretch/kstuff/releases/tag/v1.5",
     "description": "Dynamically patches the PS5 kernel to bypass security",
     "last_update": "2025-05-04"
   },
   {
     "filename": "etaHEN_v2.1B.bin",
-    "URL": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.1B.bin",
+    "url": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.1B.bin",
+    "source": "https://github.com/etaHEN/etaHEN/releases/tag/2.1B",
     "description": "AIO HEN payload",
     "last_update": "2025-04-28"
+  },
+  {
+    "filename": "ftpsrv_v0.11.3.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.11.3.elf",
+    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.11.3",
+    "description": "A simple FTP server that accepts connections on port 2121",
+    "last_update": "2025-03-15"
+  },
+  {
+    "filename": "klogsrv_v0.5.3.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.5.3.elf",
+    "source": "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.5.3",
+    "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
+    "last_update": "2025-03-15"
   }
 ]
