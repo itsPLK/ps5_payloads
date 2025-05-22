@@ -10,5 +10,11 @@
     "URL": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.11.3.elf",
     "description": "A simple FTP server for jailbroken PS5s that accepts connections on port 2121",
     "last_update": "2025-03-15"
+  },
+  {
+    "filename": "klogsrv_v0.5.3.elf",
+    "URL": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.5.3.elf",
+    "description": "A simple socket server for jailbroken PS5s that redirects /dev/klog to sockets connected on port 3232",
+    "last_update": "2025-03-15"
   }
 ]
