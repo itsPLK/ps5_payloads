@@ -1,10 +1,10 @@
 [
   {
-    "filename": "websrv_v0.23.1.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/websrv_v0.23.1.elf",
-    "source": "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.23.1",
+    "filename": "websrv_v0.24.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/websrv_v0.24.elf",
+    "source": "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.24",
     "description": "A simple web server that accepts connections on port 8080",
-    "last_update": "2025-05-12"
+    "last_update": "2025-06-04"
   },
   {
     "filename": "kstuff_v1.5.elf",
