@@ -21,11 +21,11 @@
     "last_update": "2025-04-28"
   },
   {
-    "filename": "ftpsrv_v0.11.3.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.11.3.elf",
-    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.11.3",
+    "filename": "ftpsrv_v0.12.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.12.elf",
+    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.12",
     "description": "A simple FTP server that accepts connections on port 2121",
-    "last_update": "2025-03-15"
+    "last_update": "2025-06-03"
   },
   {
     "filename": "klogsrv_v0.6.elf",
