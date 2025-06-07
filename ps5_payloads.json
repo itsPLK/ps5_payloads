@@ -28,10 +28,10 @@
     "last_update": "2025-03-15"
   },
   {
-    "filename": "klogsrv_v0.5.3.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.5.3.elf",
-    "source": "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.5.3",
+    "filename": "klogsrv_v0.6.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.6.elf",
+    "source": "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.6",
     "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
-    "last_update": "2025-03-15"
+    "last_update": "2025-06-04"
   }
 ]
