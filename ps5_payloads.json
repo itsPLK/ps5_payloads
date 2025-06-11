@@ -1,5 +1,12 @@
 [
   {
+    "filename": "etaHEN_v2.2B.bin",
+    "url": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.2B.bin",
+    "source": "https://github.com/etaHEN/etaHEN/releases/tag/2.2",
+    "description": "AIO HEN payload",
+    "last_update": "2025-06-11"
+  },
+  {
     "filename": "websrv_v0.24.elf",
     "url": "https://itsplk.github.io/ps5_payloads/websrv_v0.24.elf",
     "source": "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.24",
@@ -7,18 +14,11 @@
     "last_update": "2025-06-04"
   },
   {
-    "filename": "kstuff_v1.5.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.5.elf",
-    "source": "https://github.com/EchoStretch/kstuff/releases/tag/v1.5",
-    "description": "Dynamically patches the PS5 kernel to bypass security",
-    "last_update": "2025-05-04"
-  },
-  {
-    "filename": "etaHEN_v2.1B.bin",
-    "url": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.1B.bin",
-    "source": "https://github.com/etaHEN/etaHEN/releases/tag/2.1B",
-    "description": "AIO HEN payload",
-    "last_update": "2025-04-28"
+    "filename": "klogsrv_v0.6.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.6.elf",
+    "source": "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.6",
+    "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
+    "last_update": "2025-06-04"
   },
   {
     "filename": "ftpsrv_v0.12.elf",
@@ -28,10 +28,10 @@
     "last_update": "2025-06-03"
   },
   {
-    "filename": "klogsrv_v0.6.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.6.elf",
-    "source": "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.6",
-    "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
-    "last_update": "2025-06-04"
+    "filename": "kstuff_v1.5.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.5.elf",
+    "source": "https://github.com/EchoStretch/kstuff/releases/tag/v1.5",
+    "description": "Dynamically patches the PS5 kernel to bypass security",
+    "last_update": "2025-05-04"
   }
 ]
