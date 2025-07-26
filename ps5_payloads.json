@@ -7,25 +7,25 @@
     "last_update": "2025-06-11"
   },
   {
-    "filename": "websrv_v0.24.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/websrv_v0.24.elf",
-    "source": "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.24",
+    "filename": "websrv_v0.25.1.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/websrv_v0.25.1.elf",
+    "source": "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.25.1",
     "description": "A simple web server that accepts connections on port 8080",
-    "last_update": "2025-06-04"
+    "last_update": "2025-06-28"
   },
   {
-    "filename": "klogsrv_v0.6.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.6.elf",
-    "source": "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.6",
+    "filename": "klogsrv_v0.6.2.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.6.2.elf",
+    "source": "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.6.2",
     "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
-    "last_update": "2025-06-04"
+    "last_update": "2025-06-28"
   },
   {
-    "filename": "ftpsrv_v0.12.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.12.elf",
-    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.12",
+    "filename": "ftpsrv_v0.12.2.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.12.2.elf",
+    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.12.2",
     "description": "A simple FTP server that accepts connections on port 2121",
-    "last_update": "2025-06-03"
+    "last_update": "2025-06-27"
   },
   {
     "filename": "kstuff_v1.5.elf",
