@@ -33,5 +33,12 @@
     "source": "https://github.com/EchoStretch/kstuff/releases/tag/v1.5",
     "description": "Dynamically patches the PS5 kernel to bypass security",
     "last_update": "2025-05-04"
+  },
+  {
+    "filename": "ps5debug_v1.0b5.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/ps5debug_v1.0b5.elf",
+    "source": "https://github.com/GoldHEN/ps5debug/releases/tag/1.0b5",
+    "description": "PlayStation 5 Debugger",
+    "last_update": "2025-07-14"
   }
 ]
