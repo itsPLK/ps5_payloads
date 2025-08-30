@@ -2,42 +2,42 @@
   {
     "filename": "etaHEN_v2.2B.bin",
     "url": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.2B.bin",
-    "source": "https://github.com/etaHEN/etaHEN/releases/tag/2.2",
+    "source": "https://github.com/etaHEN/etaHEN/releases",
     "description": "AIO HEN payload",
     "last_update": "2025-06-11"
   },
   {
-    "filename": "websrv_v0.25.1.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/websrv_v0.25.1.elf",
-    "source": "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.25.1",
+    "filename": "websrv-ps5_v0.26.1.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/websrv-ps5_v0.26.1.elf",
+    "source": "https://github.com/ps5-payload-dev/websrv/releases",
     "description": "A simple web server that accepts connections on port 8080",
-    "last_update": "2025-06-28"
+    "last_update": "2025-08-28"
   },
   {
-    "filename": "klogsrv_v0.6.2.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/klogsrv_v0.6.2.elf",
-    "source": "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.6.2",
+    "filename": "klogsrv-ps5_v0.7.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/klogsrv-ps5_v0.7.elf",
+    "source": "https://github.com/ps5-payload-dev/klogsrv/releases",
     "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
-    "last_update": "2025-06-28"
+    "last_update": "2025-08-15"
   },
   {
-    "filename": "ftpsrv_v0.12.2.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/ftpsrv_v0.12.2.elf",
-    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.12.2",
+    "filename": "ftpsrv-ps5_v0.13.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/ftpsrv-ps5_v0.13.elf",
+    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
     "description": "A simple FTP server that accepts connections on port 2121",
-    "last_update": "2025-06-27"
+    "last_update": "2025-08-15"
   },
   {
-    "filename": "kstuff_v1.5.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.5.elf",
-    "source": "https://github.com/EchoStretch/kstuff/releases/tag/v1.5",
+    "filename": "kstuff_v1.6.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.6.elf",
+    "source": "https://github.com/EchoStretch/kstuff/releases",
     "description": "Dynamically patches the PS5 kernel to bypass security",
-    "last_update": "2025-05-04"
+    "last_update": "2025-08-30"
   },
   {
     "filename": "ps5debug_v1.0b5.elf",
     "url": "https://itsplk.github.io/ps5_payloads/ps5debug_v1.0b5.elf",
-    "source": "https://github.com/GoldHEN/ps5debug/releases/tag/1.0b5",
+    "source": "https://github.com/GoldHEN/ps5debug/releases",
     "description": "PlayStation 5 Debugger",
     "last_update": "2025-07-14"
   }
