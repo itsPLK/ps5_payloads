@@ -1,10 +1,10 @@
 [
   {
-    "filename": "etaHEN_v2.2B.bin",
-    "url": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.2B.bin",
+    "filename": "etaHEN_v2.3B.bin",
+    "url": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.3B.bin",
     "source": "https://github.com/etaHEN/etaHEN/releases",
     "description": "AIO HEN payload",
-    "last_update": "2025-06-11"
+    "last_update": "2025-09-05"
   },
   {
     "filename": "websrv-ps5_v0.26.1.elf",
