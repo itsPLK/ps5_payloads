@@ -28,11 +28,11 @@
     "last_update": "2025-08-15"
   },
   {
-    "filename": "kstuff_v1.6.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.6.elf",
+    "filename": "kstuff_v1.6.3.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.6.3.elf",
     "source": "https://github.com/EchoStretch/kstuff/releases",
     "description": "Dynamically patches the PS5 kernel to bypass security",
-    "last_update": "2025-08-30"
+    "last_update": "2025-09-11"
   },
   {
     "filename": "ps5debug_v1.0b5.elf",
