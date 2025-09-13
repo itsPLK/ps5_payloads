@@ -1,5 +1,12 @@
 [
   {
+    "filename": "kstuff_v1.6.4.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.6.4.elf",
+    "source": "https://github.com/EchoStretch/kstuff/releases",
+    "description": "Dynamically patches the PS5 kernel to bypass security",
+    "last_update": "2025-09-13"
+  },
+  {
     "filename": "etaHEN_v2.3B.bin",
     "url": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.3B.bin",
     "source": "https://github.com/etaHEN/etaHEN/releases",
@@ -14,13 +21,6 @@
     "last_update": "2025-08-28"
   },
   {
-    "filename": "klogsrv-ps5_v0.7.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/klogsrv-ps5_v0.7.elf",
-    "source": "https://github.com/ps5-payload-dev/klogsrv/releases",
-    "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
-    "last_update": "2025-08-15"
-  },
-  {
     "filename": "ftpsrv-ps5_v0.13.elf",
     "url": "https://itsplk.github.io/ps5_payloads/ftpsrv-ps5_v0.13.elf",
     "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
@@ -28,11 +28,11 @@
     "last_update": "2025-08-15"
   },
   {
-    "filename": "kstuff_v1.6.3.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.6.3.elf",
-    "source": "https://github.com/EchoStretch/kstuff/releases",
-    "description": "Dynamically patches the PS5 kernel to bypass security",
-    "last_update": "2025-09-11"
+    "filename": "klogsrv-ps5_v0.7.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/klogsrv-ps5_v0.7.elf",
+    "source": "https://github.com/ps5-payload-dev/klogsrv/releases",
+    "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
+    "last_update": "2025-08-15"
   },
   {
     "filename": "ps5debug_v1.0b5.elf",
