@@ -1,44 +1,82 @@
 [
   {
-    "filename": "kstuff_v1.6.4.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/kstuff_v1.6.4.elf",
-    "source": "https://github.com/EchoStretch/kstuff/releases",
-    "description": "Dynamically patches the PS5 kernel to bypass security",
-    "last_update": "2025-09-13"
-  },
-  {
-    "filename": "etaHEN_v2.3B.bin",
-    "url": "https://itsplk.github.io/ps5_payloads/etaHEN_v2.3B.bin",
-    "source": "https://github.com/etaHEN/etaHEN/releases",
-    "description": "AIO HEN payload",
-    "last_update": "2025-09-05"
-  },
-  {
-    "filename": "websrv-ps5_v0.26.1.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/websrv-ps5_v0.26.1.elf",
-    "source": "https://github.com/ps5-payload-dev/websrv/releases",
-    "description": "A simple web server that accepts connections on port 8080",
-    "last_update": "2025-08-28"
-  },
-  {
-    "filename": "ftpsrv-ps5_v0.13.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/ftpsrv-ps5_v0.13.elf",
+    "name": "ftpsrv",
+    "filename": "ftpsrv-ps5.elf",
+    "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.19/ftpsrv-ps5.elf",
     "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
     "description": "A simple FTP server that accepts connections on port 2121",
-    "last_update": "2025-08-15"
+    "last_update": "2026-04-07",
+    "version": "v0.19",
+    "checksum": "e6c1babbfd5e1b766d12b659853b514b9faedf6333cbe8cb514b1a3e79b7ce39"
   },
   {
-    "filename": "klogsrv-ps5_v0.7.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/klogsrv-ps5_v0.7.elf",
+    "name": "kstuff-lite",
+    "filename": "kstuff.elf",
+    "url": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.03/kstuff.elf",
+    "source": "https://github.com/EchoStretch/kstuff-lite/releases",
+    "description": "Lite version of kstuff",
+    "last_update": "2026-04-04",
+    "version": "v1.03",
+    "checksum": "54df47a48d9c5ee4338ef70ba66093908a4f2845e53468bdd7c080b65d7488c1"
+  },
+  {
+    "name": "websrv",
+    "filename": "websrv-ps5.elf",
+    "url": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.30.1/websrv-ps5.elf",
+    "source": "https://github.com/ps5-payload-dev/websrv/releases",
+    "description": "A simple web server that accepts connections on port 8080",
+    "last_update": "2026-04-03",
+    "version": "v0.30.1",
+    "checksum": "5b5d55ba51c8b5a4fb9929f690efc4ce488f86fe3d0f22223106643be9d5c2ab"
+  },
+  {
+    "name": "klogsrv",
+    "filename": "klogsrv-ps5.elf",
+    "url": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.7.2/klogsrv-ps5.elf",
     "source": "https://github.com/ps5-payload-dev/klogsrv/releases",
     "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
-    "last_update": "2025-08-15"
+    "last_update": "2026-04-02",
+    "version": "v0.7.2",
+    "checksum": "c932fd185bc0e7e24beb45ebe2ddc88940c7ff15c589ed4ae7fe6086157c69d2"
   },
   {
+    "name": "BackPork",
+    "filename": "ps5-backpork.elf",
+    "url": "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
+    "source": "https://github.com/BestPig/BackPork/releases",
+    "description": "Lets you sideload system libraries into PS5 games",
+    "last_update": "2026-01-18",
+    "version": "0.1",
+    "checksum": "f76dd1885ef6aebec55e12a71b32a6bbf0e1cafb9146960a51b231fd52b914fe"
+  },
+  {
+    "name": "kstuff",
+    "filename": "kstuff.elf",
+    "url": "https://github.com/EchoStretch/kstuff/releases/download/v1.6.7/kstuff.elf",
+    "source": "https://github.com/EchoStretch/kstuff/releases",
+    "description": "Dynamically patches the PS5 kernel to bypass security",
+    "last_update": "2026-01-04",
+    "version": "v1.6.7",
+    "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
+  },
+  {
+    "name": "etaHEN",
+    "filename": "etaHEN-2.5B.bin",
+    "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
+    "source": "https://github.com/etaHEN/etaHEN/releases",
+    "description": "AIO HEN payload",
+    "last_update": "2025-12-25",
+    "version": "2.5B",
+    "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e"
+  },
+  {
+    "name": "ps5debug",
     "filename": "ps5debug_v1.0b5.elf",
     "url": "https://itsplk.github.io/ps5_payloads/ps5debug_v1.0b5.elf",
     "source": "https://github.com/GoldHEN/ps5debug/releases",
     "description": "PlayStation 5 Debugger",
-    "last_update": "2025-07-14"
+    "last_update": "2025-07-14",
+    "version": "v1.0b5",
+    "checksum": "9dc888f66b8dd97d1317ac7260ab9499f709ddf0cbab59db82347c0aa93aaa8a"
   }
 ]
