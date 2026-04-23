@@ -5,6 +5,9 @@ import hashlib
 import urllib.request
 import sys
 import os
+import zipfile
+import tempfile
+import shutil
 from datetime import datetime
 
 JSON_FILE = "ps5_payloads.json"
@@ -50,7 +53,7 @@ def calculate_checksum(filepath):
         return None
 
 def reorder_item(item):
-    order = ["name", "filename", "url", "source", "source_direct", "description", "last_update", "version", "checksum"]
+    order = ["name", "filename", "url", "source", "source_direct", "extract_file", "description", "last_update", "version", "checksum"]
     new_item = {}
     for key in order:
         if key in item:
@@ -85,7 +88,7 @@ def add_payload():
         print(f"Error fetching release info: {e}")
         return
 
-    filename_match = re.search(r"/([^/]+\.(elf|bin))$", url)
+    filename_match = re.search(r"/([^/]+\.(elf|bin|zip))$", url)
     original_filename = filename_match.group(1) if filename_match else None
     
     assets = release.get("assets", [])
@@ -101,9 +104,14 @@ def add_payload():
             if asset["name"].endswith((".elf", ".bin")):
                 selected_asset = asset
                 break
+        if not selected_asset:
+            for asset in assets:
+                if asset["name"].endswith(".zip"):
+                    selected_asset = asset
+                    break
                 
     if not selected_asset:
-        print("Error: Could not find a suitable .elf or .bin asset in the latest release.")
+        print("Error: Could not find a suitable .elf, .bin or .zip asset in the latest release.")
         return
 
     try:
@@ -119,12 +127,66 @@ def add_payload():
 
     gh_url = selected_asset["browser_download_url"]
     new_version = release["tag_name"]
-    ext = selected_asset["name"].rsplit('.', 1)[1] if '.' in selected_asset["name"] else "bin"
+    is_zip = selected_asset["name"].endswith(".zip")
+    
+    if is_zip:
+        ext = "elf" # Default for zip extraction
+    else:
+        ext = selected_asset["name"].rsplit('.', 1)[1] if '.' in selected_asset["name"] else "bin"
+        
     # Format: repo_name_version.ext
     filename = f"{repo}_{new_version}.{ext}"
+    filepath = os.path.join(PAYLOADS_DIR, filename)
     
-    if download_file(gh_url, filename):
-        filepath = os.path.join(PAYLOADS_DIR, filename)
+    extract_file = None
+    if is_zip:
+        print(f"  Detected ZIP archive: {selected_asset['name']}")
+        with tempfile.NamedTemporaryFile(delete=False) as tmp_file:
+            tmp_path = tmp_file.name
+            
+        print(f"  Downloading zip to temporary file...")
+        try:
+            req = urllib.request.Request(gh_url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req) as response:
+                with open(tmp_path, 'wb') as f:
+                    f.write(response.read())
+            
+            with zipfile.ZipFile(tmp_path, 'r') as z:
+                elf_files = [f for f in z.namelist() if f.lower().endswith('.elf')]
+                print(f"  Files inside zip: {', '.join(z.namelist())}")
+                
+                extract_file = input(f"  Path inside zip to extract the .elf (found: {', '.join(elf_files)}): ").strip()
+                if not extract_file:
+                    if len(elf_files) == 1:
+                        extract_path = elf_files[0]
+                        print(f"  Auto-selecting: {extract_path}")
+                        extract_file = extract_path
+                    elif len(elf_files) > 1:
+                        print(f"  Error: Multiple .elf files found in zip, please specify one.")
+                        os.remove(tmp_path)
+                        return
+                    else:
+                        print(f"  Error: No .elf files found in zip.")
+                        os.remove(tmp_path)
+                        return
+                
+                if not os.path.exists(PAYLOADS_DIR):
+                    os.makedirs(PAYLOADS_DIR)
+                
+                print(f"  Extracting {extract_file} to {filename}...")
+                with z.open(extract_file) as source, open(filepath, 'wb') as target:
+                    shutil.copyfileobj(source, target)
+            os.remove(tmp_path)
+            success = True
+        except Exception as e:
+            print(f"  Error processing zip: {e}")
+            if os.path.exists(tmp_path):
+                os.remove(tmp_path)
+            return
+    else:
+        success = download_file(gh_url, filename)
+
+    if success:
         new_item = {
             "name": repo,
             "filename": filename,
@@ -136,6 +198,8 @@ def add_payload():
             "version": new_version,
             "checksum": calculate_checksum(filepath)
         }
+        if extract_file:
+            new_item["extract_file"] = extract_file
         
         payloads.append(new_item)
         payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)
