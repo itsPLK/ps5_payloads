@@ -125,7 +125,7 @@
   {
     "name": "ps5debug",
     "filename": "ps5debug_v1.0b5.elf",
-    "url": "https://itsplk.github.io/ps5_payloads/ps5debug_v1.0b5.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/payloads/ps5debug_v1.0b5.elf",
     "source": "https://github.com/GoldHEN/ps5debug/releases",
     "description": "PlayStation 5 Debugger",
     "last_update": "2025-07-14",
