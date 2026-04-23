@@ -1,5 +1,17 @@
 [
   {
+    "name": "ShadowMountPlus",
+    "filename": "ShadowMountPlus_1.6beta9.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/payloads/ShadowMountPlus_1.6beta9.elf",
+    "source": "https://github.com/drakmor/ShadowMountPlus/releases",
+    "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.6beta9/ShadowMountPlus_1.6beta9.zip",
+    "extract_file": "shadowmountplus.elf",
+    "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
+    "last_update": "2026-04-16",
+    "version": "1.6beta9",
+    "checksum": "7b9789d2a451e0cf52906c33a3797d97c4b8dbba64eca95762ab5929e2026204"
+  },
+  {
     "name": "ftpsrv",
     "filename": "ftpsrv_v0.19.elf",
     "url": "https://itsplk.github.io/ps5_payloads/payloads/ftpsrv_v0.19.elf",
@@ -42,6 +54,40 @@
     "last_update": "2026-04-02",
     "version": "v0.7.2",
     "checksum": "c932fd185bc0e7e24beb45ebe2ddc88940c7ff15c589ed4ae7fe6086157c69d2"
+  },
+  {
+    "name": "shsrv",
+    "filename": "shsrv_v0.18.1.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/payloads/shsrv_v0.18.1.elf",
+    "source": "https://github.com/ps5-payload-dev/shsrv/releases",
+    "source_direct": "https://github.com/ps5-payload-dev/shsrv/releases/download/v0.18.1/shsrv-ps5.elf",
+    "description": "A simple telnet-like shell server for jailbroken PS5s that accepts connections on port 2323",
+    "last_update": "2026-04-02",
+    "version": "v0.18.1",
+    "checksum": "daab08c87c364f86dce143e6672f1f68e520760099d24a8eacf3c5c6d6c08c57"
+  },
+  {
+    "name": "kstuff-toggle",
+    "filename": "kstuff-toggle_0.5.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/payloads/kstuff-toggle_0.5.elf",
+    "source": "https://github.com/EchoStretch/kstuff-toggle/releases",
+    "source_direct": "https://github.com/EchoStretch/kstuff-toggle/releases/download/0.5/kstuff-toggle.zip",
+    "extract_file": "kstuff-toggle-3.elf",
+    "description": "Boost homebrew game performance on your PS5 by disabling Kstuff after launching the game.",
+    "last_update": "2026-03-29",
+    "version": "0.5",
+    "checksum": "cc1a29f7b1b83d54416cd96f0aff001177317c7d53eefadd2637a1869ab3b605"
+  },
+  {
+    "name": "garlic-savemgr",
+    "filename": "garlic-savemgr_v1.7.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/payloads/garlic-savemgr_v1.7.elf",
+    "source": "https://github.com/earthonion/garlic-savemgr/releases",
+    "source_direct": "https://github.com/earthonion/garlic-savemgr/releases/download/v1.7/garlic-savemgr.elf",
+    "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
+    "last_update": "2026-03-16",
+    "version": "v1.7",
+    "checksum": "124051ab3a762474720ae53187d2920bc96d6be1d69aa298e715667efc385a2f"
   },
   {
     "name": "BackPork",
