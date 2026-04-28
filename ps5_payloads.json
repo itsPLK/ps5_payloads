@@ -67,6 +67,17 @@
     "checksum": "daab08c87c364f86dce143e6672f1f68e520760099d24a8eacf3c5c6d6c08c57"
   },
   {
+    "name": "elfldr",
+    "filename": "elfldr_v0.22.2.elf",
+    "url": "https://itsplk.github.io/ps5_payloads/payloads/elfldr_v0.22.2.elf",
+    "source": "https://github.com/ps5-payload-dev/elfldr/releases",
+    "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.22.2/elfldr-ps5.elf",
+    "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
+    "last_update": "2026-04-02",
+    "version": "v0.22.2",
+    "checksum": "b456a30d5f1d4941b985a44e06613018f608cc9c62bf992e2564494d365216cd"
+  },
+  {
     "name": "kstuff-toggle",
     "filename": "kstuff-toggle_0.5.elf",
     "url": "https://itsplk.github.io/ps5_payloads/payloads/kstuff-toggle_0.5.elf",
